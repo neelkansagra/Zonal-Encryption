@@ -70,7 +70,11 @@ If you face any error while installing go to this [link](https://www.cryptopp.co
 4. Compiling & executing the file
 
     `$g++ zonal_enc.cc -I <path to the place where you downloaded PBC library>/include/ -L. -lpbc -lgmp -l:libcryptopp.a`
+
    For example, if I downloaded the PBC library in the same directory where zonal encryption file is present, then I would write:
+
     `$g++ zonal_enc.cc -I ./pbc-0.5.14/include/ -L. -lpbc -lgmp -l:libcryptopp.a`
+
    The above command should runs successfully without errors (warnings are fine).
+
      `$./a.out`
