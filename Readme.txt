@@ -39,7 +39,7 @@ g++ is successfully installed if the last command runs successfully
       $ sudo chmod 755 /usr/local/share/cryptopp/TestVectors
       $ sudo chmod 644 /usr/local/share/cryptopp/TestData/*.dat
       $ sudo chmod 644 /usr/local/share/cryptopp/TestVectors/*.txt
-If you face any error while installing go to this link - https://www.cryptopp.com/wiki/Linux#Build_and_Install_the_Library for trobleshooting and other compiling inforfation
+If you face any error while installing go to this link - https://www.cryptopp.com/wiki/Linux#Build_and_Install_the_Library for trobleshooting and other compiling information
 
 4) Compiling & executing the file 
    - $ g++ zonal_enc.cc -I <path to the place where you downloaded PBC library>/include/ -L. -lpbc -lgmp -l:libcryptopp.a
