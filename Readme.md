@@ -4,9 +4,9 @@
 
   ```bash
 
-   $sudo apt update
-   $sudo apt install build-essential
-   $g++ --version
+     $sudo apt update
+     $sudo apt install build-essential
+     $g++ --version
   ```
 
 g++ is successfully installed if the last command runs successfully
