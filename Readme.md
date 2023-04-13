@@ -18,10 +18,10 @@ g++ is successfully installed if the last command runs successfully
 
    ```bash
 
-    $sudo ./configure
-    $sudo make
-    $sudo make check
-    $sudo make install
+     $sudo ./configure
+     $sudo make
+     $sudo make check
+     $sudo make install
   ```
 
 3. Downloading & Installing PBC
