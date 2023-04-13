@@ -2,12 +2,12 @@
 
 1. Downloading g++
 
-  ```bash
+   ```bash
 
      $sudo apt update
      $sudo apt install build-essential
      $g++ --version
-  ```
+   ```
 
 g++ is successfully installed if the last command runs successfully
 
@@ -22,23 +22,23 @@ g++ is successfully installed if the last command runs successfully
      $sudo make
      $sudo make check
      $sudo make install
-  ```
+   ```
 
 3. Downloading & Installing PBC
 
 - Go to this [link](https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz) to download PBC library.
 - Unzip the folder then type the following commands.
 
-  ```bash
+   ```bash
 
      $sudo ./configure
      $sudo make
      $sudo make install
-  ```
+   ```
   
 4. Downloading & Installing Crypto++ library
 
-    ```bash
+   ```bash
 
      $sudo apt-get install libcrypto++8 libcrypto++8-dbg libcrypto++-dev
      $sudo make static dynamic cryptest.exe
@@ -63,7 +63,7 @@ g++ is successfully installed if the last command runs successfully
      $sudo chmod 644 /usr/local/share/cryptopp/TestData/*.dat
      $sudo chmod 644 /usr/local/share/cryptopp/TestVectors/*.txt
     
-    ```
+   ```
 
 If you face any error while installing go to this [link](https://www.cryptopp.com/wiki/Linux#Build_and_Install_the_Library) for trobleshooting and other compiling information
 
