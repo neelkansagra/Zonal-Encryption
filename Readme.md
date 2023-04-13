@@ -19,8 +19,11 @@ g++ is successfully installed if the last command runs successfully
 
 - Go to this [link](https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz) to download PBC library.
 - Unzip the folder then type the following commands.
+
     `$ sudo ./configure`
+
     `$ sudo make`
+
     `$ sudo make install`
   
 4. Downloading qnd Installing Crypto++ library
